@@ -1,6 +1,6 @@
 from typing import Dict, List, Optional, Tuple, Union
 import numpy as np
-from scipy import stats  # kept for compatibility with original imports
+from scipy import stats  
 from scipy.optimize import minimize
 from numpy.linalg import inv
 from statsmodels.tools.numdiff import approx_hess1
